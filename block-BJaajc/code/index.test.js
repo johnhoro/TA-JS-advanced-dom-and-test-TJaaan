@@ -33,7 +33,7 @@ test("Jalaj is a Palindrome", () => {
 });
 
 test("Naman is a Palindrome", () => {
-  expect(fns.isPalindrome("naman")).toBe(true);
+  expect(fn.isPalindrome("naman")).toBe(true);
 });
 
 test("reviver is a Palindrome", () => {
@@ -70,13 +70,13 @@ test("Circumfrence of circle with radius 10 is 62", () => {
 });
 
 test("Area of circle with radius 10 is 314", () => {
-  expect(fn.getAreaOfCircle(10)).toBe("The area is 314");
+  expect(fn.getArea(10)).toBe("The area is 314");
 });
 
 test("Area of circle with radius 7 is 153", () => {
-  expect(fn.getAreaOfCircle(7)).toBe("The area is 153");
+  expect(fn.getArea(7)).toBe("The area is 153");
 });
 
 test("Area of circle with radius 5 is 78", () => {
-  expect(fn.getAreaOfCircle(5)).toBe("The area is 78");
+  expect(fn.getArea(5)).toBe("The area is 78");
 });
