@@ -5,7 +5,7 @@ function isPalindrome(val) {
   let revVal = val.split(``).reverse().join(``);
   return val === revVal;
 }
-function getCircumference(radius) {
+function getCircumfernce(radius) {
   return `The circumference is ${2 * 3.14 * radius}`;
 }
 
@@ -16,6 +16,6 @@ function getArea(r) {
 module.exports = {
   getFullName,
   isPalindrome,
-  getCircumference,
+  getCircumfernce,
   getArea,
 };
